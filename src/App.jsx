@@ -12,7 +12,7 @@ function App() {
   const [Search, setSearch] = useState("Hulk");
   const [Loading, setLoading] = useState(false);
 
-  const url = `http://www.omdbapi.com/?s=${Search}&apikey=134d002d`;
+  const url = `https://www.omdbapi.com/?s=${Search}&apikey=134d002d`;
 
   useEffect(() => {
     const FetchMovies = async () => {
