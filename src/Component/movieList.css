@@ -47,5 +47,7 @@ background-color: #4B5694;
 @media screen and (min-width:320px) and (max-width: 500px){
   .MovieItem{
     display: block;
+    align-items: center;
+    justify-content: center;
   }
 }
