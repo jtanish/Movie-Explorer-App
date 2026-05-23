@@ -1,0 +1,51 @@
+.moviecontainer {
+  width: 100%;
+  padding: 10px;
+}
+
+.MovieItem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.MovieCard {
+  width: 250px;
+  color: white;
+  background-color: #7288AE;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 8px;
+  text-align: center;
+  transition: transform 0.1s ease;
+}
+
+.MovieCard:hover {
+transform: scale(1.010);
+background-color: #4B5694;
+}
+
+.MovieCard img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.MovieCard h1 {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.MovieCard h2,
+.MovieCard h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media(min-width:320px){
+  .MovieItem{
+    display: block;
+  }
+}
